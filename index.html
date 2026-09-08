@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Joseph Nguyen · General Engineering &amp; Software</title>
+<meta name="description" content="Joseph Nguyen, a general engineering student at Texas A&amp;M headed for mechanical, with a software background. Cut a live learning platform's load times by 97%. Interested in controls and data acquisition work.">
+<meta name="author" content="Joseph Nguyen">
+<meta name="keywords" content="Joseph Nguyen, Texas A&amp;M, mechanical engineering, general engineering, software engineer intern, data acquisition, DAQ, Baja SAE, College Station">
+<link rel="canonical" href="https://joeyseft1.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Joseph Nguyen">
+<meta property="og:url" content="https://joeyseft1.github.io/">
+<meta property="og:title" content="Joseph Nguyen · General Engineering &amp; Software">
+<meta property="og:description" content="Texas A&amp;M general engineering student headed for mechanical, with a software background. Interested in controls and data acquisition work.">
+<meta property="og:image" content="https://joeyseft1.github.io/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Joseph Nguyen · General Engineering &amp; Software">
+<meta name="twitter:description" content="Texas A&amp;M general engineering student headed for mechanical, with a software background.">
+<meta name="twitter:image" content="https://joeyseft1.github.io/og-image.png">
+<meta name="theme-color" content="#f6f4f1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='13' fill='%23161513'/%3E%3Ctext x='32' y='34' fill='%23f6f4f1' font-family='Helvetica,Arial,sans-serif' font-size='27' font-weight='700' text-anchor='middle' dominant-baseline='central'%3EJN%3C/text%3E%3C/svg%3E">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#f6f4f1; --raise:#fffefc; --ink:#161513; --mute:#6b6862; --line:#ddd8d0;
+    --accent:oklch(0.52 0.17 28); --accent-soft:oklch(0.52 0.17 28 / 0.09);
+    --sticky-top:96px;
+  }
+  [data-theme="dark"]{
+    --paper:#131312; --raise:#1c1b19; --ink:#f2f0ec; --mute:#9c988f; --line:#2e2c29;
+    --accent:oklch(0.68 0.15 30); --accent-soft:oklch(0.68 0.15 30 / 0.14);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;overflow-anchor:none;background:var(--paper);color:var(--ink);font-family:Archivo,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{color:var(--ink)}
+  ::selection{background:var(--accent-soft)}
+  @keyframes pageIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+  @keyframes toastIn{from{opacity:0;transform:translate(-50%,14px)}to{opacity:1;transform:translate(-50%,0)}}
+  @media (max-width:880px){
+    [style*="minmax(0,1fr) minmax(0,2fr)"]{grid-template-columns:1fr !important;gap:20px !important}
+    [style*="minmax(0,1fr) minmax(0,2.2fr)"]{grid-template-columns:1fr !important;gap:26px !important}
+    [style*="gap:clamp(18px,3vw,30px)"]{flex-direction:column !important;gap:22px !important}
+    [style*="max-width:66%"]{max-width:100% !important}
+  }
+  /* seven nav items no longer co-fit with the brand block, so the header
+     stacks well before the content breakpoints do */
+  @media (max-width:1000px){
+    :root{--sticky-top:142px}
+    header{flex-wrap:wrap !important;row-gap:12px !important}
+    header nav{width:100% !important;flex-wrap:wrap !important;gap:2px !important;justify-content:flex-start !important}
+    header nav > button:last-child{margin-left:auto !important}
+  }
+  @media (max-width:680px){
+    header{padding-left:18px !important;padding-right:18px !important}
+    main{padding-left:18px !important;padding-right:18px !important}
+    [style*="max-height:560px"]{max-height:none !important;overflow:visible !important;padding-right:0 !important}
+    [style*="border-left:1px solid var(--line)"]{border-left:0 !important;border-top:1px solid var(--line) !important;padding:20px 0 0 0 !important}
+    section{padding-top:34px !important;padding-bottom:34px !important}
+  }
+  @media (max-width:420px){
+    header nav > button{padding:7px 8px !important;font-size:10.5px !important}
+  }
+</style>
+<script src="./image-slot.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Joseph Nguyen","url":"https://joeyseft1.github.io/","email":"mailto:joeysngn@gmail.com","jobTitle":"Engineering Student","description":"General engineering student at Texas A&M headed for mechanical engineering, with a software background in full-stack development and an interest in data acquisition and vehicle dynamics.","address":{"@type":"PostalAddress","addressLocality":"College Station","addressRegion":"TX","addressCountry":"US"},"alumniOf":{"@type":"CollegeOrUniversity","name":"Texas A&M University"},"knowsAbout":["Software engineering","Data acquisition","Vehicle dynamics","Database optimization","Web scraping","PCB design"],"sameAs":["https://www.linkedin.com/in/joseph-nguyen-a05517267/","https://www.youtube.com/@joeysngn"]}</script>
+</helmet>
+<template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="#161513"></rect><text x="50" y="50" fill="#f6f4f1" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle" dominant-baseline="central">JN</text></svg></template>
+<div data-theme="{{ theme }}" style="min-height:100vh;background:var(--paper);color:var(--ink);transition:background 240ms ease,color 240ms ease">
+
+  <header style="position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:18px clamp(20px,5vw,72px);background:var(--paper);border-bottom:1px solid var(--line)">
+    <span id="scroll-progress" style="position:absolute;left:0;bottom:-1px;width:100%;height:2px;background:var(--accent);transform:scaleX(0);transform-origin:0 50%;pointer-events:none"></span>
+    <button onClick="{{ goHome }}" style="display:flex;align-items:baseline;gap:10px;flex:0 0 auto;white-space:nowrap;background:none;border:0;padding:0;cursor:pointer;color:inherit;font-family:inherit">
+      <span id="brand-name" style="flex:0 0 auto;font-size:17px;font-weight:600;letter-spacing:-0.02em;white-space:nowrap;transition:font-size 300ms ease">Joseph Nguyen</span>
+      <span id="brand-loc" style="flex:0 0 auto;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.14em;text-transform:uppercase;color:var(--mute);transition:opacity 300ms ease,max-width 300ms ease;overflow:hidden;white-space:nowrap;max-width:220px">College Station, TX</span>
+    </button>
+    <nav style="position:relative;display:flex;align-items:center;gap:4px">
+      <span id="nav-pill" style="position:absolute;left:0;top:50%;height:28px;margin-top:-14px;border-radius:6px;background:var(--accent-soft);opacity:0;transform:translateX(0);transition:transform 420ms cubic-bezier(.16,.84,.24,1),width 420ms cubic-bezier(.16,.84,.24,1),opacity 260ms ease;pointer-events:none"></span>
+      <sc-for list="{{ nav }}" as="item" hint-placeholder-count="4">
+        <button onClick="{{ item.go }}" data-active="{{ item.active }}" style="font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:0.1em;text-transform:uppercase;white-space:nowrap;background:none;border:0;padding:8px 11px;border-radius:6px;cursor:pointer;color:{{ item.color }}" style-hover="color:var(--ink);background:var(--accent-soft)">{{ item.label }}</button>
+      </sc-for>
+      <button onClick="{{ toggleTheme }}" title="Toggle light / dark" style="margin-left:14px;display:flex;align-items:center;gap:9px;height:34px;padding:0 13px 0 10px;border:1px solid var(--line);background:var(--raise);border-radius:999px;cursor:pointer;color:var(--ink);font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.1em;text-transform:uppercase" style-hover="border-color:var(--accent);color:var(--accent)">
+        <span style="width:15px;height:15px;border-radius:999px;border:1.5px solid currentColor;background:linear-gradient(90deg,currentColor 50%,transparent 50%)"></span>
+        <span>{{ themeLabel }}</span>
+      </button>
+    </nav>
+  </header>
+
+  <sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
+  <main style="padding:0 clamp(20px,5vw,72px) 96px;max-width:1180px;margin:0 auto;animation:pageIn 520ms cubic-bezier(.16,.84,.24,1)">
+    <section style="padding:clamp(56px,9vw,120px) 0 clamp(40px,6vw,72px);border-bottom:1px solid var(--line)">
+      <p data-reveal="1" style="font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:0.16em;text-transform:uppercase;color:var(--accent);margin:0 0 26px">General Engineering · Software Development</p>
+      <h1 data-reveal="1" data-parallax="-0.11" data-parallax-fade="1" style="will-change:transform,opacity;font-size:clamp(38px,6.4vw,78px);line-height:1.02;letter-spacing:-0.035em;font-weight:600;margin:0;max-width:19ch;text-wrap:pretty">I write software. I'm moving toward the hardware side.</h1>
+      <p data-reveal="1" style="margin:28px 0 0;font-size:clamp(16px,1.55vw,20px);line-height:1.55;color:var(--mute);max-width:56ch;text-wrap:pretty">I'm a general engineering student at Texas A&amp;M, headed for mechanical, originally from Cypress, Texas. Last summer I cut a live learning platform's load times by 97%. I've applied to Baja SAE for the Controls/DAQ or chassis subteam.</p>
+      <div data-reveal="1" style="display:flex;flex-wrap:wrap;gap:12px;margin-top:38px">
+        <a href="Joseph-Nguyen-Resume.pdf" download style="display:inline-flex;align-items:center;gap:9px;padding:13px 20px;border-radius:8px;background:var(--ink);color:var(--paper);font-size:14px;font-weight:500" style-hover="background:var(--accent);color:#fff;transform:translateY(-3px)">Download résumé <span style="font-family:'JetBrains Mono',monospace;font-size:11px;opacity:0.7">PDF</span></a>
+        <button onClick="{{ copyEmail }}" title="Copy email address" style="display:inline-flex;align-items:center;gap:9px;padding:13px 20px;border-radius:8px;border:1px solid var(--line);background:var(--raise);color:var(--ink);font-size:14px;font-weight:500;font-family:inherit;cursor:pointer" style-hover="border-color:var(--accent);color:var(--accent)">joeysngn@gmail.com <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.1em;text-transform:uppercase;color:var(--mute)">{{ copyHint }}</span></button>
+        <a href="https://www.linkedin.com/in/joseph-nguyen-a05517267/" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;padding:13px 20px;border-radius:8px;border:1px solid var(--line);background:var(--raise);color:var(--ink);font-size:14px;font-weight:500" style-hover="border-color:var(--accent);color:var(--accent)">LinkedIn</a>
+      </div>
+    </section>
+
+
+    <section data-fx="skew" style="padding:clamp(40px,5vw,64px) 0 clamp(44px,5vw,68px);border-bottom:1px solid var(--line);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr));gap:clamp(28px,4vw,56px)">
+      <sc-for list="{{ stats }}" as="s" hint-placeholder-count="3">
+        <div data-fx="drift" data-k="0.04">
+          <div data-reveal="1" data-count="{{ s.count }}" data-suffix="{{ s.suffix }}" style="font-size:clamp(30px,3.6vw,44px);font-weight:600;letter-spacing:-0.03em;line-height:1">{{ s.figure }}</div>
+          <div style="margin-top:10px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.11em;text-transform:uppercase;color:var(--mute);line-height:1.6">{{ s.label }}</div>
+        </div>
+      </sc-for>
+    </section>
+
+    <section data-reveal="1" data-magnet-zone="1" style="padding:clamp(34px,4vw,52px) 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:clamp(24px,5vw,64px);align-items:center">
+      <h2 style="margin:0;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.16em;text-transform:uppercase;color:var(--mute);font-weight:500">Where I've been</h2>
+      <div style="display:flex;flex-wrap:wrap;align-items:center;gap:clamp(26px,4vw,44px)">
+        <img src="tamu-logo.png" alt="Texas A&amp;M University" data-magnet="0.16" style="width:132px;height:auto;flex:0 0 auto;display:block;filter:{{ tamuFilter }}">
+        <img src="asme-logo.png" alt="ASME Texas A&amp;M" data-magnet="0.3" style="width:104px;height:auto;filter:{{ logoFilter }}">
+        <img src="apcs-logo.png" alt="A+ Computer Science" data-magnet="0.44" style="width:84px;height:auto;filter:{{ logoFilter }}">
+      </div>
+    </section>
+
+    <section data-reveal="1" style="padding:clamp(44px,6vw,80px) 0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:clamp(24px,5vw,64px);align-items:start;border-bottom:1px solid var(--line)">
+      <h2 style="margin:0;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:0.16em;text-transform:uppercase;color:var(--mute);font-weight:500;position:sticky;top:var(--sticky-top)" data-sticky="1">Now</h2>
+      <div>
+        <p style="margin:0;font-size:clamp(18px,2vw,26px);line-height:1.45;letter-spacing:-0.015em;max-width:44ch;text-wrap:pretty">I'm building a course-registration app that ranks Texas A&amp;M schedules by professor quality and by how you actually want your week to look.</p>
+        <ul style="list-style:none;padding:0;margin:26px 0 0;display:grid;gap:12px">
+          <sc-for list="{{ nowItems }}" as="n" hint-placeholder-count="3">
+            <li style="display:flex;gap:14px;align-items:baseline;color:var(--mute);font-size:15px;line-height:1.55">
+              <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--accent);letter-spacing:0.1em">{{ n.tag }}</span>
+              <span>{{ n.text }}</span>
+            </li>
+          </sc-for>
+        </ul>
+        <button onClick="{{ goWork }}" style="margin-top:30px;background:none;border:0;padding:0;cursor:pointer;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent)" style-hover="color:var(--ink)">See the work →</button>
+      </div>
+    </section>
+
+    <section data-reveal="1" style="padding:clamp(44px,6vw,80px) 0 0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:clamp(24px,5vw,64px);align-items:start">
+      <h2 style="margin:0;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:0.16em;text-transform:uppercase;color:var(--mute);font-weight:500;position:sticky;top:var(--sticky-top)" data-sticky="1">Elsewhere</h2>
+      <div style="display:grid;gap:1px;background:var(--line)">
+        <sc-for list="{{ elsewhere }}" as="e" hint-placeholder-count="3">
+          <a href="{{ e.href }}" onClick="{{ e.click }}" style="background:var(--paper);display:flex;justify-content:space-between;gap:16px;padding:20px 12px;color:var(--ink);font-size:16px;transition:padding 260ms cubic-bezier(.16,.84,.24,1),color 200ms ease,background 260ms ease" style-hover="color:var(--accent);padding-left:26px;background:var(--raise)">
+            <span>{{ e.label }}</span>
+            <span style="font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--mute)">{{ e.meta }}</span>
+          </a>
+        </sc-for>
+      </div>
+    </section>
+  </main>
+  </sc-if>
+
+  <sc-if value="{{ isWork }}" hint-placeholder-val="{{ true }}">
+  <main style="padding:0 clamp(20px,5vw,72px) 96px;max-width:1180px;margin:0 auto;animation:pageIn 520ms cubic-bezier(.16,.84,.24,1)">
+    <section style="padding:clamp(48px,7vw,96px) 0 clamp(32px,4vw,52px);border-bottom:1px solid var(--line)">
+      <h1 data-reveal="1" style="font-size:clamp(34px,5vw,62px);line-height:1.05;letter-spacing:-0.03em;font-weight:600;margin:0;max-width:22ch;text-wrap:pretty">Software I've built.</h1>
+    </section>
+
+    <section style="padding:clamp(40px,5vw,72px) 0;border-bottom:1px solid var(--line)">
+      <h2 style="margin:0 0 34px;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:0.16em;text-transform:uppercase;color:var(--mute);font-weight:500;position:sticky;top:var(--sticky-top)" data-sticky="1">Experience</h2>
+      <div data-reveal="1" style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.2fr);gap:clamp(20px,4vw,56px);align-items:start">
+        <div>
+          <img src="apcs-logo.png" alt="A+ Computer Science" style="display:block;width:100%;max-width:104px;height:auto;margin:0 0 22px;filter:{{ logoFilter }}">
+          <div style="font-size:clamp(20px,2vw,26px);font-weight:600;letter-spacing:-0.02em;line-height:1.25">Software Engineer Intern</div>
+          <div style="margin-top:8px;font-size:15px;color:var(--mute)">A+ Computer Science · Cypress, TX</div>
+          <div style="margin-top:14px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:var(--accent)">Jun – Aug 2026</div>
+          <div style="margin-top:22px;display:flex;flex-wrap:wrap;gap:7px">
+            <sc-for list="{{ internStack }}" as="t" hint-placeholder-count="6">
+              <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.06em;padding:5px 9px;border:1px solid var(--line);border-radius:4px;color:var(--mute)">{{ t }}</span>
+            </sc-for>
+          </div>
+        </div>
+        <ul style="list-style:none;padding:0 0 0 26px;margin:0;display:grid;gap:20px;position:relative">
+          <span style="position:absolute;left:0;top:6px;bottom:6px;width:2px;background:var(--line)"></span>
+          <span data-fx="grow" style="position:absolute;left:0;top:6px;bottom:6px;width:2px;background:var(--accent);transform-origin:50% 0;transform:scaleY(0)"></span>
+          <sc-for list="{{ internBullets }}" as="b" hint-placeholder-count="5">
+            <li data-reveal="1" style="border-top:1px solid var(--line);padding-top:18px">
+              <div style="font-size:16.5px;font-weight:500;letter-spacing:-0.01em;line-height:1.4">{{ b.head }}</div>
+              <div style="margin-top:8px;font-size:15px;line-height:1.6;color:var(--mute);max-width:62ch;text-wrap:pretty">{{ b.body }}</div>
+            </li>
+          </sc-for>
+        </ul>
+      </div>
+    </section>
+
+    <section style="padding:clamp(40px,5vw,72px) 0 0">
+      <h2 style="margin:0 0 28px;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:0.16em;text-transform:uppercase;color:var(--mute);font-weight:500;position:sticky;top:var(--sticky-top)" data-sticky="1">Projects</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:20px;max-width:700px">
+        <sc-for list="{{ projects }}" as="p" hint-placeholder-count="1">
+          <article data-reveal="1" data-fx="tilt" style="border:1px solid var(--line);border-radius:12px;background:var(--raise);padding:28px;display:flex;flex-direction:column;gap:16px;transition:border-color 180ms ease,transform 180ms ease" style-hover="border-color:var(--accent);transform:translateY(-3px)">
+            <div style="display:flex;justify-content:space-between;gap:16px;align-items:baseline">
+              <h3 style="margin:0;font-size:21px;font-weight:600;letter-spacing:-0.02em;line-height:1.25">{{ p.name }}</h3>
+              <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.1em;color:var(--mute);white-space:nowrap">{{ p.when }}</span>
+            </div>
+            <div style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:var(--accent)">{{ p.role }}</div>
+            <p style="margin:0;font-size:15.5px;line-height:1.6;color:var(--mute);text-wrap:pretty">{{ p.blurb }}</p>
+            <ul style="list-style:none;padding:0;margin:4px 0 0;display:grid;gap:10px">
+              <sc-for list="{{ p.detail }}" as="d" hint-placeholder-count="3">
+                <li style="display:flex;gap:10px;font-size:14.5px;line-height:1.55"><span style="color:var(--accent)">·</span><span>{{ d }}</span></li>
+              </sc-for>
+            </ul>
+            <div style="margin-top:auto;padding-top:8px;display:flex;flex-wrap:wrap;gap:7px">
+              <sc-for list="{{ p.stack }}" as="t" hint-placeholder-count="3">
+                <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;padding:5px 9px;border-radius:4px;background:var(--accent-soft);color:var(--accent)">{{ t }}</span>
+              </sc-for>
+            </div>
+          </article>
+        </sc-for>
+      </div>
+    </section>
+
+    <section data-reveal="1" style="margin-top:clamp(44px,6vw,80px);padding-top:clamp(36px,5vw,56px);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:32px">
+      <sc-for list="{{ skills }}" as="g" hint-placeholder-count="3">
+        <div>
+          <div style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--mute)">{{ g.label }}</div>
+          <div style="margin-top:12px;font-size:16px;line-height:1.65">{{ g.items }}</div>
+        </div>
+      </sc-for>
+    </section>
+  </main>
+  </sc-if>
+
+  <sc-if value="{{ isHands }}" hint-placeholder-val="{{ true }}">
+  <main style="padding:0 clamp(20px,5vw,72px) 96px;max-width:1180px;margin:0 auto;animation:pageIn 520ms cubic-bezier(.16,.84,.24,1)">
+    <section style="padding:clamp(48px,7vw,96px) 0 clamp(32px,4vw,52px);border-bottom:1px solid var(--line)">
+      <h1 data-reveal="1" style="font-size:clamp(34px,5vw,62px);line-height:1.05;letter-spacing:-0.03em;font-weight:600;margin:0;max-width:24ch;text-wrap:pretty">The hardware side, which I'm still learning.</h1>
+      <p data-reveal="1" style="margin:26px 0 0;font-size:clamp(16px,1.5vw,19px);line-height:1.6;color:var(--mute);max-width:58ch;text-wrap:pretty">I came to engineering through code. What I want now is the part where data changes a decision: sensor traces, lap times, setup changes backed by numbers.</p>
+    </section>
+
+    <section style="padding:clamp(40px,5vw,72px) 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:clamp(24px,4vw,48px);border-bottom:1px solid var(--line)">
+      <sc-for list="{{ hands }}" as="h" hint-placeholder-count="3">
+        <div data-fx="drift" data-k="0.05" style="padding:0 24px 0 0;border-left:1px solid var(--line);padding-left:24px">
+          <div style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--accent)">{{ h.tag }}</div>
+          <h3 style="margin:14px 0 0;font-size:19px;font-weight:600;letter-spacing:-0.015em;line-height:1.3">{{ h.title }}</h3>
+          <p style="margin:10px 0 0;font-size:15px;line-height:1.6;color:var(--mute);max-width:40ch;text-wrap:pretty">{{ h.body }}</p>
+        </div>
+      </sc-for>
+    </section>
+
+    <section data-reveal="1" style="padding:clamp(40px,5vw,72px) 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:clamp(24px,5vw,64px);align-items:start">
+      <h2 style="margin:0;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:0.16em;text-transform:uppercase;color:var(--mute);font-weight:500">Involvement</h2>
+      <div style="display:grid;gap:24px">
+        <div style="display:flex;gap:clamp(18px,3vw,30px);align-items:flex-start">
+          <img src="asme-logo.png" alt="ASME Texas A&amp;M" data-fx="drift" data-k="0.07" style="width:104px;height:auto;flex:0 0 auto;filter:{{ logoFilter }}">
+          <div>
+            <div style="font-size:clamp(18px,1.8vw,23px);font-weight:600;letter-spacing:-0.02em;line-height:1.3">ASME at Texas A&amp;M</div>
+            <p style="margin:10px 0 0;font-size:15.5px;line-height:1.6;color:var(--mute);max-width:46ch;text-wrap:pretty">I’m a member of the American Society of Mechanical Engineers student section. It keeps me around people building the physical side of engineering.</p>
+          </div>
+        </div>
+        <div style="display:flex;gap:clamp(18px,3vw,30px);align-items:flex-start;padding-top:24px;border-top:1px solid var(--line)">
+          <img src="baja-logo.jpg" alt="Texas A&amp;M Baja SAE" style="width:104px;height:auto;flex:0 0 auto;display:block;filter:{{ bajaFilter }};mix-blend-mode:{{ bajaBlend }}">
+          <div>
+            <div style="font-size:clamp(18px,1.8vw,23px);font-weight:600;letter-spacing:-0.02em;line-height:1.3">Baja SAE at Texas A&amp;M <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent);vertical-align:middle">Applied</span></div>
+            <p style="margin:10px 0 0;font-size:15.5px;line-height:1.6;color:var(--mute);max-width:46ch;text-wrap:pretty">My application is in for the Controls/DAQ and chassis subteams. It’s the closest thing on campus to the work I want to be doing.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section data-reveal="1" style="padding:clamp(40px,5vw,72px) 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:clamp(24px,5vw,64px);align-items:start">
+      <h2 style="margin:0;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:0.16em;text-transform:uppercase;color:var(--mute);font-weight:500">Education</h2>
+      <div style="display:flex;gap:clamp(18px,3vw,30px);align-items:flex-start">
+        <img src="tamu-logo.png" alt="Texas A&amp;M University" style="width:172px;height:auto;flex:0 0 auto;display:block;filter:{{ tamuFilter }}">
+        <div>
+          <div style="font-size:clamp(20px,2vw,26px);font-weight:600;letter-spacing:-0.02em">Texas A&amp;M University</div>
+          <div style="margin-top:10px;font-size:16px;line-height:1.6;color:var(--mute)">General engineering track, entering mechanical engineering</div>
+          <div style="margin-top:14px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:var(--accent)">Class of 2030</div>
+        </div>
+      </div>
+    </section>
+
+    <section data-reveal="1" style="padding:clamp(32px,4vw,48px) 0 0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:clamp(24px,5vw,64px);align-items:start">
+      <h2 style="margin:0;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.16em;text-transform:uppercase;color:var(--mute);font-weight:500">Earlier</h2>
+      <ul style="list-style:none;padding:0;margin:0;display:grid;gap:10px">
+        <sc-for list="{{ achievements }}" as="a" hint-placeholder-count="2">
+          <li style="font-size:14px;line-height:1.6;color:var(--mute);text-wrap:pretty"><span style="color:var(--ink)">{{ a.title }}</span>. {{ a.body }}</li>
+        </sc-for>
+      </ul>
+    </section>
+
+  </main>
+  </sc-if>
+
+  <sc-if value="{{ isFun }}" hint-placeholder-val="{{ true }}">
+  <main style="padding:0 clamp(20px,5vw,72px) 96px;max-width:1180px;margin:0 auto;animation:pageIn 520ms cubic-bezier(.16,.84,.24,1)">
+    <section style="padding:clamp(48px,7vw,96px) 0 clamp(32px,4vw,52px);border-bottom:1px solid var(--line)">
+      <p data-reveal="1" style="font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:0.16em;text-transform:uppercase;color:var(--accent);margin:0 0 26px">Off Hours</p>
+      <h1 data-reveal="1" style="font-size:clamp(34px,5vw,62px);line-height:1.05;letter-spacing:-0.03em;font-weight:600;margin:0;max-width:22ch;text-wrap:pretty">Editing and games.</h1>
+      <p data-reveal="1" style="margin:26px 0 0;font-size:clamp(16px,1.5vw,19px);line-height:1.6;color:var(--mute);max-width:58ch;text-wrap:pretty">Editing is the hobby I've had the longest: clips cut to music I like. Games I work through as a list. Racing has its own page.</p>
+      <button data-reveal="1" onClick="{{ goRacing }}" style="margin-top:26px;background:none;border:0;padding:0;cursor:pointer;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent)" style-hover="color:var(--ink)">Racing page →</button>
+    </section>
+
+    <section data-reveal="1" style="padding:clamp(40px,5vw,72px) 0;border-bottom:1px solid var(--line);display:grid;gap:clamp(28px,4vw,40px)">
+      <div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--accent)">YouTube</div>
+        <h2 style="margin:14px 0 0;font-size:clamp(22px,2.4vw,30px);font-weight:600;letter-spacing:-0.025em;line-height:1.2">Edits, for fun</h2>
+        <p style="margin:14px 0 0;font-size:15.5px;line-height:1.65;color:var(--mute);max-width:44ch;text-wrap:pretty">No brief and no audience, just clips I felt like putting together.</p>
+        <a href="https://www.youtube.com/@joeysngn" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;margin-top:24px;padding:12px 19px;border-radius:8px;border:1px solid var(--line);background:var(--raise);color:var(--ink);font-size:14px;font-weight:500" style-hover="border-color:var(--accent);color:var(--accent)">Watch on YouTube <span style="font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--mute)">@joeysngn</span></a>
+      </div>
+      <div style="display:grid;gap:16px">
+        <a href="https://youtu.be/1QXfKQYOhns" target="_blank" rel="noopener" data-reveal="1" data-fx="tilt" style="display:block;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--raise);transition:border-color 200ms ease,transform 200ms ease" style-hover="border-color:var(--accent);transform:translateY(-3px)">
+          <img src="https://i.ytimg.com/vi/1QXfKQYOhns/maxresdefault.jpg" alt="Featured edit" style="display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover">
+          <span style="display:flex;justify-content:space-between;gap:12px;padding:15px 18px;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:var(--mute)"><span style="color:var(--accent)">Featured edit</span><span>Watch</span></span>
+        </a>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:16px;max-width:66%">
+          <a href="https://youtu.be/dLpOFrdpbHs" target="_blank" rel="noopener" data-reveal="1" style="display:block;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--raise);opacity:0.68;transition:opacity 200ms ease,border-color 200ms ease,transform 200ms ease" style-hover="opacity:1;border-color:var(--accent);transform:translateY(-2px)">
+            <img src="https://i.ytimg.com/vi/dLpOFrdpbHs/maxresdefault.jpg" alt="Edit on YouTube" style="display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover">
+          </a>
+          <a href="https://youtu.be/6zO7t4eRqhU" target="_blank" rel="noopener" data-reveal="1" style="display:block;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--raise);opacity:0.68;transition:opacity 200ms ease,border-color 200ms ease,transform 200ms ease" style-hover="opacity:1;border-color:var(--accent);transform:translateY(-2px)">
+            <img src="https://i.ytimg.com/vi/6zO7t4eRqhU/maxresdefault.jpg" alt="Edit on YouTube" style="display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section style="padding:clamp(40px,5vw,72px) 0;border-bottom:1px solid var(--line)">
+      <div style="display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:16px">
+        <h2 style="margin:0;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:0.16em;text-transform:uppercase;color:var(--mute);font-weight:500">Games</h2>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:var(--mute)">{{ doneCount }} of {{ totalCount }} done</div>
+      </div>
+      <p style="margin:20px 0 0;font-size:clamp(17px,1.9vw,24px);line-height:1.45;letter-spacing:-0.015em;max-width:40ch;text-wrap:pretty">Games I'm working through. Click a card to move it along.</p>
+      <div style="margin-top:22px;height:3px;background:var(--line);border-radius:99px;overflow:hidden;max-width:420px">
+        <div style="height:100%;background:var(--accent);width:{{ donePct }};transition:width 400ms ease"></div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:28px">
+        <sc-for list="{{ gameTabs }}" as="t" hint-placeholder-count="4">
+          <button onClick="{{ t.go }}" style="display:inline-flex;align-items:center;gap:8px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;padding:9px 14px;border-radius:999px;border:1px solid var(--line);cursor:pointer;background:{{ t.bg }};color:{{ t.color }}" style-hover="border-color:var(--accent)">
+            <span>{{ t.label }}</span><span style="opacity:0.6">{{ t.count }}</span>
+          </button>
+        </sc-for>
+      </div>
+      <div id="games-wrap" style="position:relative;margin-top:28px">
+        <span id="games-glow" style="position:absolute;inset:-30px;opacity:0;transition:opacity 300ms ease;pointer-events:none;border-radius:20px"></span>
+        <div style="position:relative;max-height:560px;overflow-y:auto;padding-right:6px;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,164px),1fr));gap:16px;align-items:start">
+        <sc-for list="{{ visibleGames }}" as="g" hint-placeholder-count="12">
+          <div style="display:flex;flex-direction:column;gap:10px;transition:transform 260ms cubic-bezier(.16,.84,.24,1)" style-hover="transform:translateY(-5px)">
+            <image-slot id="{{ g.slug }}" src="{{ g.cover }}" shape="rounded" radius="8" style="width:100%;aspect-ratio:3/4" placeholder="cover"></image-slot>
+            <button onClick="{{ g.cycle }}" style="text-align:left;background:none;border:0;padding:0;cursor:pointer;font-family:inherit;color:var(--ink);display:flex;flex-direction:column;justify-content:space-between;min-height:56px" style-hover="color:var(--accent)">
+              <span style="display:block;font-size:13.5px;font-weight:500;line-height:1.35;letter-spacing:-0.01em;text-wrap:pretty">{{ g.title }}</span>
+              <span style="display:block;margin-top:5px;font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:0.12em;text-transform:uppercase;color:{{ g.statusColor }}">{{ g.statusLabel }}</span>
+            </button>
+          </div>
+        </sc-for>
+        </div>
+      </div>
+    </section>
+
+    <section style="padding:clamp(40px,5vw,72px) 0 0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:clamp(24px,5vw,64px);align-items:start">
+      <h2 style="margin:0;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:0.16em;text-transform:uppercase;color:var(--mute);font-weight:500">The rest of it</h2>
+      <ul style="list-style:none;padding:0;margin:0;display:grid;gap:24px">
+        <sc-for list="{{ outside }}" as="o" hint-placeholder-count="4">
+          <li data-reveal="1" style="border-top:1px solid var(--line);padding-top:20px">
+            <div style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent)">{{ o.label }}</div>
+            <div style="margin-top:9px;font-size:16px;line-height:1.65;color:var(--mute);max-width:60ch;text-wrap:pretty">{{ o.text }}</div>
+          </li>
+        </sc-for>
+      </ul>
+    </section>
+  </main>
+  </sc-if>
+
+  <sc-if value="{{ isRacing }}" hint-placeholder-val="{{ true }}">
+  <main style="padding:0 clamp(20px,5vw,72px) 96px;max-width:1180px;margin:0 auto;animation:pageIn 520ms cubic-bezier(.16,.84,.24,1)">
+    <section style="padding:clamp(48px,7vw,96px) 0 clamp(32px,4vw,52px);border-bottom:1px solid var(--line)">
+      <p data-reveal="1" style="font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:0.16em;text-transform:uppercase;color:var(--accent);margin:0 0 26px">Racing</p>
+      <h1 data-reveal="1" data-parallax="-0.08" data-parallax-fade="1" style="will-change:transform,opacity;font-size:clamp(34px,5.4vw,66px);line-height:1.04;letter-spacing:-0.03em;font-weight:600;margin:0;max-width:21ch;text-wrap:pretty">Rally and GT3.</h1>
+      <p data-reveal="1" style="margin:26px 0 0;font-size:clamp(16px,1.55vw,20px);line-height:1.6;color:var(--mute);max-width:58ch;text-wrap:pretty">F1 got me into cars, but rally and GT3 are what I actually watch. Reading about setup changes is how I ended up interested in the data side of a car.</p>
+    </section>
+
+    <section data-reveal="1" style="padding:clamp(44px,6vw,80px) 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:clamp(24px,5vw,64px);align-items:start">
+      <h2 style="margin:0;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:0.16em;text-transform:uppercase;color:var(--mute);font-weight:500;position:sticky;top:var(--sticky-top)" data-sticky="1">Favorite on a grid</h2>
+      <div>
+        <div data-fx="drift" data-k="0.045" style="font-size:clamp(34px,4.6vw,58px);font-weight:600;letter-spacing:-0.035em;line-height:1.02">Ferrari 296 GT3</div>
+        <p style="margin:22px 0 0;font-size:clamp(17px,1.8vw,22px);line-height:1.5;letter-spacing:-0.015em;max-width:40ch;text-wrap:pretty">My favorite car on a grid right now.</p>
+        <p style="margin:16px 0 0;font-size:15.5px;line-height:1.65;color:var(--mute);max-width:52ch;text-wrap:pretty">GT3 is the class I'd point anyone at first. The cars are close enough in performance that races come down to traffic, tires, and strategy.</p>
+      </div>
+    </section>
+
+    <section style="padding:clamp(40px,5vw,72px) 0;border-bottom:1px solid var(--line)">
+      <h2 style="margin:0 0 30px;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:0.16em;text-transform:uppercase;color:var(--mute);font-weight:500">What I follow</h2>
+      <div style="display:grid;gap:1px;background:var(--line)">
+        <sc-for list="{{ watchList }}" as="w" hint-placeholder-count="4">
+          <div data-reveal="1" style="background:var(--paper);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:clamp(16px,4vw,48px);align-items:baseline;padding:22px 12px;transition:padding 260ms cubic-bezier(.16,.84,.24,1),background 260ms ease" style-hover="padding-left:26px;background:var(--raise)">
+            <span style="font-size:clamp(17px,1.7vw,22px);letter-spacing:-0.015em">{{ w.series }}</span>
+            <span style="font-size:15.5px;line-height:1.6;color:var(--mute);text-wrap:pretty">{{ w.why }}</span>
+          </div>
+        </sc-for>
+      </div>
+    </section>
+
+    <section style="padding:clamp(40px,5vw,72px) 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:clamp(24px,4vw,48px)">
+      <sc-for list="{{ garage }}" as="g" hint-placeholder-count="3">
+        <div data-fx="drift" data-k="0.05" style="border-left:1px solid var(--line);padding-left:24px">
+          <div style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--accent)">{{ g.tag }}</div>
+          <h3 style="margin:14px 0 0;font-size:20px;font-weight:600;letter-spacing:-0.02em;line-height:1.25">{{ g.name }}</h3>
+          <p style="margin:10px 0 0;font-size:15px;line-height:1.6;color:var(--mute);max-width:38ch;text-wrap:pretty">{{ g.body }}</p>
+        </div>
+      </sc-for>
+    </section>
+
+    <section data-reveal="1" style="padding:clamp(40px,5vw,72px) 0 0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:clamp(24px,5vw,64px);align-items:start">
+      <h2 style="margin:0;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:0.16em;text-transform:uppercase;color:var(--mute);font-weight:500;position:sticky;top:var(--sticky-top)" data-sticky="1">Things I'd want to measure</h2>
+      <div>
+        <p style="margin:0 0 24px;font-size:15.5px;line-height:1.65;color:var(--mute);max-width:54ch;text-wrap:pretty">Questions a broadcast feed can't answer, which I keep coming back to.</p>
+        <ul style="list-style:none;padding:0;margin:0;display:grid;gap:14px">
+          <sc-for list="{{ racingQs }}" as="q" hint-placeholder-count="4">
+            <li style="display:flex;gap:14px;align-items:baseline;border-top:1px solid var(--line);padding-top:14px;font-size:15.5px;line-height:1.6;color:var(--mute);text-wrap:pretty">
+              <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--accent);letter-spacing:0.1em">{{ q.n }}</span>
+              <span>{{ q.text }}</span>
+            </li>
+          </sc-for>
+        </ul>
+        <button onClick="{{ goHands }}" style="margin-top:30px;background:none;border:0;padding:0;cursor:pointer;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent)" style-hover="color:var(--ink)">Hands-on →</button>
+      </div>
+    </section>
+  </main>
+  </sc-if>
+
+  <sc-if value="{{ isNotes }}" hint-placeholder-val="{{ true }}">
+  <main style="padding:0 clamp(20px,5vw,72px) 96px;max-width:1180px;margin:0 auto;animation:pageIn 520ms cubic-bezier(.16,.84,.24,1)">
+    <section style="padding:clamp(48px,7vw,96px) 0 clamp(32px,4vw,52px);border-bottom:1px solid var(--line)">
+      <p data-reveal="1" style="font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:0.16em;text-transform:uppercase;color:var(--accent);margin:0 0 26px">Notes</p>
+      <h1 data-reveal="1" style="font-size:clamp(34px,5vw,62px);line-height:1.05;letter-spacing:-0.03em;font-weight:600;margin:0;max-width:20ch;text-wrap:pretty">Short posts, mostly written for me.</h1>
+      <p data-reveal="1" style="margin:26px 0 0;font-size:clamp(16px,1.5vw,19px);line-height:1.6;color:var(--mute);max-width:56ch;text-wrap:pretty">Whatever I'm figuring out at the time.</p>
+    </section>
+
+    <section style="padding:clamp(36px,5vw,64px) 0 0;display:grid;gap:clamp(40px,5vw,64px)">
+      <sc-for list="{{ notes }}" as="n" hint-placeholder-count="3">
+        <article data-reveal="1" style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.2fr);gap:clamp(20px,4vw,56px);align-items:start;border-top:1px solid var(--line);padding-top:26px">
+          <div data-sticky="1" style="position:sticky;top:var(--sticky-top)">
+            <div style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent)">{{ n.date }}</div>
+            <div style="margin-top:8px;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:var(--mute)">{{ n.tag }}</div>
+          </div>
+          <div>
+            <h2 style="margin:0;font-size:clamp(22px,2.4vw,30px);font-weight:600;letter-spacing:-0.025em;line-height:1.2;max-width:26ch;text-wrap:pretty">{{ n.title }}</h2>
+            <div style="display:grid;gap:16px;margin-top:18px">
+              <sc-for list="{{ n.body }}" as="para" hint-placeholder-count="2">
+                <p style="margin:0;font-size:16.5px;line-height:1.7;color:var(--mute);max-width:62ch;text-wrap:pretty">{{ para }}</p>
+              </sc-for>
+            </div>
+          </div>
+        </article>
+      </sc-for>
+    </section>
+  </main>
+  </sc-if>
+
+  <sc-if value="{{ isContact }}" hint-placeholder-val="{{ true }}">
+  <main style="padding:0 clamp(20px,5vw,72px) 96px;max-width:1180px;margin:0 auto;animation:pageIn 520ms cubic-bezier(.16,.84,.24,1)">
+    <section style="padding:clamp(56px,9vw,120px) 0 clamp(40px,6vw,72px);border-bottom:1px solid var(--line)">
+      <h1 data-reveal="1" style="font-size:clamp(34px,5.4vw,66px);line-height:1.05;letter-spacing:-0.03em;font-weight:600;margin:0;max-width:20ch;text-wrap:pretty">Get in touch.</h1>
+      <p data-reveal="1" style="margin:26px 0 0;font-size:clamp(16px,1.55vw,20px);line-height:1.55;color:var(--mute);max-width:52ch;text-wrap:pretty">Internships, research, or a team that needs someone on the data side of a car.</p>
+    </section>
+    <section style="padding:clamp(36px,5vw,64px) 0">
+      <div style="display:grid;gap:1px;background:var(--line)">
+      <sc-for list="{{ contacts }}" as="c" hint-placeholder-count="4">
+        <a href="{{ c.href }}" onClick="{{ c.click }}" title="{{ c.title }}" data-reveal="1" style="background:var(--paper);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:clamp(16px,4vw,48px);align-items:baseline;padding:24px 12px;color:var(--ink);transition:padding 260ms cubic-bezier(.16,.84,.24,1),color 200ms ease,background 260ms ease" style-hover="color:var(--accent);padding-left:26px;background:var(--raise)">
+          <span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--mute)">{{ c.label }}</span>
+          <span style="display:flex;flex-wrap:wrap;align-items:baseline;gap:12px;font-size:clamp(17px,1.7vw,22px);letter-spacing:-0.015em">{{ c.value }} <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0.1em;text-transform:uppercase;color:var(--mute)">{{ c.hint }}</span></span>
+        </a>
+      </sc-for>
+      <div style="background:var(--paper);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:clamp(16px,4vw,48px);align-items:baseline;padding:24px 4px">
+        <span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--mute)">Location</span>
+        <span style="font-size:clamp(17px,1.7vw,22px);letter-spacing:-0.015em">College Station, TX</span>
+      </div>
+      </div>
+    </section>
+    <a href="Joseph-Nguyen-Resume.pdf" download style="display:inline-flex;align-items:center;gap:9px;padding:14px 22px;border-radius:8px;background:var(--ink);color:var(--paper);font-size:14px;font-weight:500" style-hover="background:var(--accent);color:#fff;transform:translateY(-3px)">Download résumé <span style="font-family:'JetBrains Mono',monospace;font-size:11px;opacity:0.7">PDF</span></a>
+  </main>
+  </sc-if>
+
+  <footer style="border-top:1px solid var(--line);padding:26px clamp(20px,5vw,72px);display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:var(--mute)">
+    <span>Joseph Nguyen · College Station, TX</span>
+    <span style="display:flex;gap:16px;align-items:center"><span id="kbd-hint" style="opacity:0.75">1&ndash;7 to navigate &middot; T for theme</span><span>{{ year }}</span></span>
+  </footer>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1280,&quot;height&quot;:860}}">
+class Component extends DCLogic {
+  state = { page: 'home', theme: 'light', filter: 'playing', games: [], copied: false };
+
+  componentDidMount() {
+    try {
+      const saved = localStorage.getItem('jn-theme');
+      if (saved === 'dark' || saved === 'light') this.setState({ theme: saved });
+      else if (window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches) this.setState({ theme: 'dark' });
+    } catch (e) {}
+    this.setState({ games: this.loadGames() });
+    this.observe();
+    this.initScroll();
+    this.watchTitle();
+    this._lastPage = this.state.page;
+  }
+
+  // helmet holes never re-resolve, and a plain write is clobbered by the next
+  // render re-asserting the literal <title>, so hold it with an observer
+  watchTitle() {
+    const node = document.querySelector('title');
+    if (!node) return;
+    const apply = () => {
+      const t = this.pageTitle();
+      if (node.textContent !== t) node.textContent = t;
+    };
+    this._applyTitle = apply;
+    if ('MutationObserver' in window) {
+      this._titleObs = new MutationObserver(apply);
+      this._titleObs.observe(node, { childList: true, characterData: true, subtree: true });
+    }
+    apply();
+  }
+
+  pageTitle() {
+    return {
+      home: 'Joseph Nguyen \u00b7 General Engineering & Software',
+      work: 'Work \u00b7 Joseph Nguyen',
+      hands: 'Hands-On \u00b7 Joseph Nguyen',
+      racing: 'Racing \u00b7 Joseph Nguyen',
+      fun: 'Off Hours \u00b7 Joseph Nguyen',
+      notes: 'Notes \u00b7 Joseph Nguyen',
+      contact: 'Contact \u00b7 Joseph Nguyen'
+    }[this.state.page] || 'Joseph Nguyen';
+  }
+  componentWillUnmount() { if (this._onScroll) removeEventListener('scroll', this._onScroll); if (this._titleObs) this._titleObs.disconnect(); }
+  componentDidUpdate() {
+    if (this._applyTitle) this._applyTitle();
+    // don't trust the lifecycle arg signature; track the page ourselves
+    if (this._lastPage !== this.state.page) {
+      this._lastPage = this.state.page;
+      this.toTop(); this.observe(); this.initScroll();
+    }
+    else if (this._placePill) requestAnimationFrame(this._placePill);
+  }
+
+  initScroll() {
+    if (!this._onScroll) {
+      this._onScroll = () => {
+        if (this._raf) return;
+        this._raf = requestAnimationFrame(() => {
+          this._raf = null;
+          const y = window.scrollY || 0;
+          if (this._bar) this._bar.style.transform = 'scaleX(' + Math.min(1, y / this._max) + ')';
+          const shrunk = y > 60;
+          if (this._brand && this._shrunk !== shrunk) {
+            this._shrunk = shrunk;
+            this._brand.style.fontSize = shrunk ? '15px' : '17px';
+            if (this._loc) {
+              this._loc.style.opacity = shrunk ? '0' : '1';
+              this._loc.style.maxWidth = shrunk ? '0px' : '220px';
+            }
+          }
+          const plx = this._plx || [];
+          for (let i = 0; i < plx.length; i++) {
+            const el = plx[i], k = parseFloat(el.dataset.parallax) || 0.08;
+            el.style.transform = 'translate3d(0,' + (y * k).toFixed(2) + 'px,0)';
+            if (el.dataset.parallaxFade) el.style.opacity = String(Math.max(0.15, 1 - y / 620));
+          }
+          if (this._reduced) return;
+          const dy = y - (this._lastY || 0);
+          this._lastY = y;
+          this._vel = (this._vel || 0) * 0.82 + dy * 0.18;
+          const skew = Math.max(-2.6, Math.min(2.6, this._vel * 0.085));
+          const vh = innerHeight, fx = this._fx || [];
+          for (let i = 0; i < fx.length; i++) {
+            const f = fx[i], el = f.el;
+            if (f.type === 'marquee') { el.style.transform = 'translate3d(' + (-y * f.k).toFixed(1) + 'px,0,0)'; continue; }
+            if (f.type === 'skew') { el.style.transform = 'skewY(' + skew.toFixed(3) + 'deg)'; continue; }
+            const r = el.getBoundingClientRect();
+            if (r.bottom < -400 || r.top > vh + 400) continue;
+            const centered = (r.top + r.height / 2 - vh / 2) / vh;
+            if (f.type === 'drift') {
+              el.style.transform = 'translate3d(0,' + (centered * -f.k * vh).toFixed(1) + 'px,0)';
+            } else if (f.type === 'tilt') {
+              const c = Math.max(-1, Math.min(1, centered));
+              el.style.transform = 'perspective(900px) rotateX(' + (c * -5.5).toFixed(2) + 'deg) translate3d(0,' + (c * -20).toFixed(1) + 'px,0) scale(' + (1 - Math.abs(c) * 0.022).toFixed(4) + ')';
+            } else if (f.type === 'grow') {
+              const p = Math.max(0, Math.min(1, (vh * 0.85 - r.top) / (r.height || 1)));
+              el.style.transform = 'scaleY(' + p.toFixed(3) + ')';
+            }
+          }
+        });
+      };
+      addEventListener('scroll', this._onScroll, { passive: true });
+    }
+    const bind = () => {
+     try {
+      this._bar = document.getElementById('scroll-progress');
+      this._plx = Array.from(document.querySelectorAll('[data-parallax]'));
+      this._reduced = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+      this._fx = Array.from(document.querySelectorAll('[data-fx]')).map(el => {
+        el.style.willChange = 'transform';
+        return { el, type: el.dataset.fx, k: parseFloat(el.dataset.k) || 0.08 };
+      });
+      this._max = Math.max(1, document.documentElement.scrollHeight - innerHeight);
+      if (!this._ro && 'ResizeObserver' in window) {
+        this._ro = new ResizeObserver(() => { this._max = Math.max(1, document.documentElement.scrollHeight - innerHeight); });
+        this._ro.observe(document.body);
+      }
+      this.initSmoothScroll();
+      this.initFlourishes();
+      this._onScroll();
+     } catch (err) { console.error('scroll init failed', err); }
+    };
+    // rAF alone can be throttled before the new page paints; the timeout is a
+    // second, idempotent attempt
+    requestAnimationFrame(bind);
+    setTimeout(bind, 220);
+  }
+
+  initSmoothScroll() {
+    if (this._smooth) return;
+    if (this._reduced) { this._resetScroll = () => {}; return; }
+    if (matchMedia('(hover: none)').matches) return;
+    this._smooth = true;
+    let target = window.scrollY, current = window.scrollY, running = false;
+    const findScroller = node => {
+      for (let el = node; el && el !== document.body; el = el.parentElement) {
+        if (el.scrollHeight > el.clientHeight + 4) {
+          const oy = getComputedStyle(el).overflowY;
+          if (oy === 'auto' || oy === 'scroll') return el;
+        }
+      }
+      return null;
+    };
+    // Inner scrollers get the same damping as the page, so the games grid
+    // doesn't rip past at native wheel speed while the page glides.
+    let inner = null, innerTarget = 0, innerRunning = false;
+    const innerTick = () => {
+      if (!inner) { innerRunning = false; return; }
+      const cur = inner.scrollTop;
+      const next = cur + (innerTarget - cur) * 0.16;
+      inner.scrollTop = next;
+      if (Math.abs(innerTarget - next) < 0.5) { inner.scrollTop = innerTarget; innerRunning = false; return; }
+      requestAnimationFrame(innerTick);
+    };
+    this._innerWheel = (e, el) => {
+      const max = el.scrollHeight - el.clientHeight;
+      if (inner !== el) { inner = el; innerTarget = el.scrollTop; }
+      const atTop = innerTarget <= 0.5 && e.deltaY < 0;
+      const atEnd = innerTarget >= max - 0.5 && e.deltaY > 0;
+      if (atTop || atEnd) return false;
+      e.preventDefault();
+      innerTarget = Math.max(0, Math.min(max, innerTarget + e.deltaY * 0.34));
+      if (!innerRunning) { innerRunning = true; requestAnimationFrame(innerTick); }
+      return true;
+    };
+    this._findScroller = findScroller;
+    const tick = () => {
+      current += (target - current) * 0.14;
+      if (Math.abs(target - current) < 0.4) { current = target; running = false; }
+      window.scrollTo(0, current);
+      if (running) requestAnimationFrame(tick);
+    };
+    addEventListener('wheel', e => {
+      if (e.ctrlKey) return;
+      const sc = this._findScroller(e.target);
+      if (sc) { if (this._innerWheel(e, sc)) return; }
+      e.preventDefault();
+      const max = document.documentElement.scrollHeight - innerHeight;
+      target = Math.max(0, Math.min(max, target + e.deltaY * 0.62));
+      if (!running) { running = true; current = window.scrollY; requestAnimationFrame(tick); }
+    }, { passive: false });
+    addEventListener('keydown', () => { target = window.scrollY; running = false; });
+    // Page switches jump to the top; the damped scroll has to forget where it was
+    // or the next wheel notch springs back to the old offset.
+    this._resetScroll = () => { target = 0; current = 0; running = false; };
+  }
+
+  initFlourishes() {
+    // sliding nav pill
+    const nav = document.querySelector('header nav');
+    const pill = document.getElementById('nav-pill');
+    this._brand = document.getElementById('brand-name');
+    this._loc = document.getElementById('brand-loc');
+    if (nav && pill) {
+      const place = () => {
+        const active = nav.querySelector('button[data-active="true"]');
+        if (!active) { pill.style.opacity = '0'; return; }
+        const nr = nav.getBoundingClientRect(), ar = active.getBoundingClientRect();
+        pill.style.width = ar.width + 'px';
+        pill.style.transform = 'translateX(' + (ar.left - nr.left) + 'px)';
+        pill.style.opacity = '1';
+      };
+      place();
+      if (!this._navResize) { this._navResize = () => this.initFlourishes(); addEventListener('resize', this._navResize); }
+      nav.querySelectorAll('button').forEach(b => {
+        if (b.dataset.hoverBound) return;
+        b.dataset.hoverBound = '1';
+        b.addEventListener('pointerenter', () => {
+          const nr = nav.getBoundingClientRect(), br = b.getBoundingClientRect();
+          if (!b.hasAttribute('data-active')) return;
+          pill.style.width = br.width + 'px';
+          pill.style.transform = 'translateX(' + (br.left - nr.left) + 'px)';
+        });
+      });
+      nav.addEventListener('pointerleave', place);
+      this._placePill = place;
+    }
+
+    // Pointer-driven effects are mouse-only: on touch, pointermove fires once
+    // per tap and there is no pointerleave, so the glow would stick where the
+    // finger last landed.
+    const fine = matchMedia('(hover: hover) and (pointer: fine)').matches;
+
+    // cursor spotlight over the games grid
+    const wrap = document.getElementById('games-wrap');
+    const glow = document.getElementById('games-glow');
+    if (wrap && glow && !wrap.dataset.glowBound && !this._reduced && fine) {
+      wrap.dataset.glowBound = '1';
+      wrap.addEventListener('pointermove', e => {
+        if (e.pointerType !== 'mouse') return;
+        const r = wrap.getBoundingClientRect();
+        glow.style.background = 'radial-gradient(420px circle at ' + (e.clientX - r.left + 30) + 'px ' + (e.clientY - r.top + 30) + 'px, var(--accent-soft), transparent 70%)';
+        glow.style.opacity = '1';
+      });
+      wrap.addEventListener('pointerleave', () => { glow.style.opacity = '0'; });
+    } else if (glow) glow.style.display = 'none';
+
+    // magnetic logos: they lean toward the cursor inside their row
+    document.querySelectorAll('[data-magnet-zone]').forEach(zone => {
+      if (zone.dataset.magnetBound || this._reduced || !fine) return;
+      zone.dataset.magnetBound = '1';
+      const targets = Array.from(zone.querySelectorAll('[data-magnet]'));
+      targets.forEach(t => { t.style.transition = 'transform 520ms cubic-bezier(.16,.84,.24,1)'; t.style.willChange = 'transform'; });
+      zone.addEventListener('pointermove', e => {
+        if (e.pointerType !== 'mouse') return;
+        const zr = zone.getBoundingClientRect();
+        targets.forEach(t => {
+          const k = parseFloat(t.dataset.magnet) || 0.2;
+          const tr = t.getBoundingClientRect();
+          const dx = (e.clientX - (tr.left + tr.width / 2)) * k;
+          const dy = (e.clientY - (tr.top + tr.height / 2)) * k;
+          const lim = 34;
+          t.style.transition = 'transform 160ms linear';
+          t.style.transform = 'translate3d(' + Math.max(-lim, Math.min(lim, dx)).toFixed(1) + 'px,' + Math.max(-lim, Math.min(lim, dy)).toFixed(1) + 'px,0)';
+        });
+        void zr;
+      });
+      zone.addEventListener('pointerleave', () => {
+        targets.forEach(t => {
+          t.style.transition = 'transform 620ms cubic-bezier(.16,.84,.24,1)';
+          t.style.transform = 'translate3d(0,0,0)';
+        });
+      });
+    });
+
+    // keyboard shortcuts
+    if (!this._keysBound) {
+      this._keysBound = true;
+      addEventListener('keydown', e => {
+        if (e.metaKey || e.ctrlKey || e.altKey) return;
+        const t = e.target;
+        if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
+        const pages = ['home', 'work', 'hands', 'racing', 'fun', 'notes', 'contact'];
+        if (e.key >= '1' && e.key <= '7') { this.setState({ page: pages[+e.key - 1] }, () => this.afterNav()); }
+        else if (e.key === 't' || e.key === 'T') {
+          const next = this.state.theme === 'dark' ? 'light' : 'dark';
+          this.setState({ theme: next });
+          try { localStorage.setItem('jn-theme', next); } catch (err) {}
+        }
+      });
+    }
+  }
+
+  countUp(el) {
+    const target = parseFloat(el.dataset.count);
+    if (!isFinite(target)) return;
+    const suffix = el.dataset.suffix || '';
+    const dur = 900, t0 = performance.now();
+    const tick = now => {
+      const p = Math.min(1, (now - t0) / dur);
+      const eased = 1 - Math.pow(1 - p, 3);
+      el.textContent = Math.round(target * eased) + suffix;
+      if (p < 1) requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+  }
+
+  observe() {
+    const run = () => {
+      const els = Array.from(document.querySelectorAll('[data-reveal]'));
+      const seen = new Map();
+      els.forEach(el => {
+        if (el.dataset.revealDone) return;
+        const key = el.parentElement;
+        const i = (seen.get(key) || 0); seen.set(key, i + 1);
+        if (el.getBoundingClientRect().top < innerHeight * 0.9) {
+          el.dataset.revealDone = '1'; el.style.opacity = '1'; el.style.filter = 'none';
+          if (!el.dataset.parallax && !el.dataset.fx) el.style.transform = 'none';
+          if (el.dataset.count) this.countUp(el);
+          return;
+        }
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(42px) scale(0.965)';
+        el.style.filter = 'blur(7px)';
+        el.style.transition = 'opacity 780ms cubic-bezier(.16,.84,.24,1) ' + (i * 80) + 'ms, transform 860ms cubic-bezier(.16,.84,.24,1) ' + (i * 80) + 'ms, filter 780ms ease ' + (i * 80) + 'ms';
+      });
+      const show = el => {
+        el.dataset.revealDone = '1'; el.style.opacity = '1'; el.style.filter = 'none';
+        if (!el.dataset.parallax && !el.dataset.fx) el.style.transform = 'none';
+        if (el.dataset.count) this.countUp(el);
+      };
+      if (!('IntersectionObserver' in window)) { els.forEach(show); return; }
+      const io = new IntersectionObserver(entries => {
+        entries.forEach(e => { if (e.isIntersecting) { show(e.target); io.unobserve(e.target); } });
+      }, { rootMargin: '0px 0px -8% 0px', threshold: 0.05 });
+      els.forEach(el => { if (!el.dataset.revealDone) io.observe(el); });
+      setTimeout(() => els.forEach(el => { if (!el.dataset.revealDone) show(el); }), 2200);
+    };
+    requestAnimationFrame(() => requestAnimationFrame(run));
+  }
+
+  toTop() {
+    if (this._resetScroll) this._resetScroll();
+    this._lastY = 0; this._vel = 0; this._shrunk = null;
+    const jump = () => {
+      const html = document.documentElement;
+      html.scrollTop = 0;
+      document.body.scrollTop = 0;
+      window.scrollTo(0, 0);
+    };
+    jump();
+    // the new page commits a frame or two later; re-assert after it mounts
+    requestAnimationFrame(() => { jump(); requestAnimationFrame(jump); });
+    setTimeout(jump, 120);
+  }
+
+  // navigation re-init runs from the setState callback, which is the one hook
+  // proven to fire in this runtime
+  afterNav() {
+    this._lastPage = this.state.page;
+    this.toTop();
+    this.observe();
+    this.initScroll();
+    if (this._applyTitle) this._applyTitle();
+  }
+
+  go(page) {
+    return () => {
+      if (page === this.state.page) { this.toTop(); return; }
+      this.setState({ page }, () => this.afterNav());
+    };
+  }
+
+  copyText(text) {
+    const done = () => {
+      this.setState({ copied: true });
+      clearTimeout(this._copyTimer);
+      this._copyTimer = setTimeout(() => this.setState({ copied: false }), 1900);
+    };
+    const legacy = () => {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.setAttribute('readonly', '');
+      ta.style.cssText = 'position:fixed;top:0;left:0;opacity:0';
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand('copy'); } catch (e) {}
+      ta.remove();
+      done();
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done).catch(legacy);
+    } else legacy();
+  }
+
+  static GAMES = {
+    done: ['Destiny 2','DOOM','Doom Eternal','Elden Ring','Far Cry 2','Far Cry 3','Far Cry 5','God of War','GTA V','Helldivers II','Hitman: World of Assassination','It Takes Two','Peak','Raft','Space Marine 2','Spider-Man','Spider-Man: Miles Morales','Wolfenstein: The New Colossus','Wolfenstein: The New Order'],
+    playing: ['Dark Souls Remastered','Persona 3: Reload','Sekiro: Shadows Die Twice'],
+    backlog: ['Armored Core VI: Fires of Rubicon','Batman: Arkham Asylum','Batman: Arkham City','Batman: Arkham Knight','Black Myth: Wukong','Blasphemous','Blasphemous 2','Clair Obscur: Expedition 33','Cyberpunk 2077','Dark Souls II','Dark Souls III','Dave the Diver','Detroit: Become Human','Devil May Cry V','Doom: The Dark Ages','Dying Light 2','Far Cry 4','God of War: Ragnarok','GTFO','Hades','Hollow Knight','Hollow Knight: Silksong','Just Cause 3','Lies of P','Metaphor: ReFantazio','NieR: Automata','Outer Wilds','Palworld','Persona 5: Royal','Spider-Man 2','The Stanley Parable: Ultra Deluxe','Stray']
+  };
+
+  static COVERS = {
+    'Dark Souls Remastered': 'covers/dark-souls-remastered.jpg',
+    'Sekiro: Shadows Die Twice': 'covers/sekiro.jpg',
+    'Persona 3: Reload': 'covers/persona-3-reload.jpg',
+    'Destiny 2': 'covers/destiny-2.jpg',
+    'DOOM': 'covers/doom.jpg',
+    'Doom Eternal': 'covers/doom-eternal.jpg',
+    'Elden Ring': 'covers/elden-ring.jpg',
+    'Far Cry 2': 'covers/far-cry-2.jpg',
+    'Far Cry 3': 'covers/far-cry-3.jpg',
+    'Far Cry 5': 'covers/far-cry-5.jpg',
+    'God of War': 'covers/god-of-war.jpg',
+    'GTA V': 'covers/gta-v.jpg',
+    'Helldivers II': 'covers/helldivers-2.jpg',
+    'Hitman: World of Assassination': 'covers/hitman-woa.jpg',
+    'It Takes Two': 'covers/it-takes-two.jpg',
+    'Peak': 'covers/peak.jpg',
+    'Raft': 'covers/raft.jpg',
+    'Space Marine 2': 'covers/space-marine-2.jpg',
+    'Spider-Man': 'covers/spider-man.jpg',
+    'Spider-Man: Miles Morales': 'covers/miles-morales.jpg',
+    'Wolfenstein: The New Order': 'covers/wolfenstein-tno.jpg',
+    'Wolfenstein: The New Colossus': 'covers/wolfenstein-tnc.jpg',
+    'Armored Core VI: Fires of Rubicon': 'covers/armored-core-vi.jpg',
+    'Batman: Arkham Asylum': 'covers/arkham-asylum.jpg',
+    'Batman: Arkham City': 'covers/arkham-city.jpg',
+    'Batman: Arkham Knight': 'covers/arkham-knight.jpg',
+    'Black Myth: Wukong': 'covers/black-myth-wukong.jpg',
+    'Blasphemous': 'covers/blasphemous.jpg',
+    'Blasphemous 2': 'covers/blasphemous-2.jpg',
+    'Clair Obscur: Expedition 33': 'covers/clair-obscur.jpg',
+    'Cyberpunk 2077': 'covers/cyberpunk-2077.jpg',
+    'Dark Souls II': 'covers/dark-souls-ii.jpg',
+    'Dark Souls III': 'covers/dark-souls-iii.jpg',
+    'Dave the Diver': 'covers/dave-the-diver.jpg',
+    'Detroit: Become Human': 'covers/detroit.jpg',
+    'Devil May Cry V': 'covers/dmc5.jpg',
+    'Doom: The Dark Ages': 'covers/doom-dark-ages.jpg',
+    'Dying Light 2': 'covers/dying-light-2.jpg',
+    'Far Cry 4': 'covers/far-cry-4.jpg',
+    'God of War: Ragnarok': 'covers/gow-ragnarok.jpg',
+    'GTFO': 'covers/gtfo.jpg',
+    'Hades': 'covers/hades.jpg',
+    'Hollow Knight': 'covers/hollow-knight.jpg',
+    'Hollow Knight: Silksong': 'covers/silksong.jpg',
+    'Just Cause 3': 'covers/just-cause-3.jpg',
+    'Lies of P': 'covers/lies-of-p.jpg',
+    'Metaphor: ReFantazio': 'covers/metaphor.jpg',
+    'NieR: Automata': 'covers/nier-automata.jpg',
+    'Outer Wilds': 'covers/outer-wilds.jpg',
+    'Palworld': 'covers/palworld.jpg',
+    'Persona 5: Royal': 'covers/persona-5-royal.jpg',
+    'Spider-Man 2': 'covers/spider-man-2.jpg',
+    'Stray': 'covers/stray.jpg',
+    'The Stanley Parable: Ultra Deluxe': 'covers/stanley-parable.jpg'
+  };
+
+  slug(t) { return 'cover-' + t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); }
+
+  baseGames() {
+    const G = Component.GAMES, out = [];
+    ['playing','done','backlog'].forEach(st => G[st].forEach(title => out.push({ title, status: st })));
+    return out;
+  }
+
+  loadGames() {
+    let saved = {};
+    try { saved = JSON.parse(localStorage.getItem('jn-games') || '{}'); } catch (e) {}
+    return this.baseGames().map(g => ({ ...g, status: saved[g.title] || g.status }));
+  }
+
+  cycle(title) {
+    return () => {
+      const order = ['backlog','playing','done'];
+      const games = this.state.games.map(g => g.title === title
+        ? { ...g, status: order[(order.indexOf(g.status) + 1) % 3] } : g);
+      this.setState({ games });
+      try {
+        const map = {}; games.forEach(g => { map[g.title] = g.status; });
+        localStorage.setItem('jn-games', JSON.stringify(map));
+      } catch (e) {}
+    };
+  }
+
+  renderVals() {
+    const p = this.state.page, f = this.state.filter;
+    const games = this.state.games.length ? this.state.games : this.baseGames();
+    const noop = () => {};
+    const copyEmail = e => { if (e && e.preventDefault) e.preventDefault(); this.copyText('joeysngn@gmail.com'); };
+    const nav = [['home','Home'],['work','Work'],['hands','Hands-On'],['racing','Racing'],['fun','Off Hours'],['notes','Notes'],['contact','Contact']].map(([k, label]) => ({
+      label, active: p === k ? 'true' : 'false', color: p === k ? 'var(--ink)' : 'var(--mute)', go: this.go(k)
+    }));
+    return {
+      pageTitle: this.pageTitle(),
+      pageTitle: this.pageTitle(),
+      theme: this.state.theme,
+      platebg: this.state.theme === 'dark' ? '#f6f4f1' : 'transparent',
+      themeLabel: this.state.theme === 'dark' ? 'Dark' : 'Light',
+      logoFilter: this.state.theme === 'dark' ? 'invert(1) brightness(0.94)' : 'none',
+      logoBlend: this.state.theme === 'dark' ? 'normal' : 'multiply',
+      // maroon-on-white mark: multiply drops the white ground in light mode;
+      // in dark mode invert+grayscale makes the art white and screen drops the ground
+      // transparent-PNG mark: flatten to black then invert for a clean white
+      tamuFilter: this.state.theme === 'dark' ? 'brightness(0) invert(1)' : 'none',
+      bajaFilter: this.state.theme === 'dark' ? 'invert(1) grayscale(1) brightness(1.45)' : 'none',
+      bajaBlend: this.state.theme === 'dark' ? 'screen' : 'multiply',
+      toggleTheme: () => {
+        const next = this.state.theme === 'dark' ? 'light' : 'dark';
+        this.setState({ theme: next });
+        try { localStorage.setItem('jn-theme', next); } catch (e) {}
+      },
+      nav,
+      goHome: this.go('home'),
+      goWork: this.go('work'),
+      goRacing: this.go('racing'),
+      goHands: this.go('hands'),
+      isHome: p === 'home', isWork: p === 'work', isHands: p === 'hands', isRacing: p === 'racing', isFun: p === 'fun', isNotes: p === 'notes', isContact: p === 'contact',
+      watchList: [
+        { series: 'World Rally Championship', why: 'One car on a closed road, with no reference lap to compare against.' },
+        { series: 'GT3, wherever it runs', why: 'IMSA and WEC. Balance of Performance keeps the cars close, so races come down to execution.' },
+        { series: 'Le Mans', why: 'Twenty-four hours makes it a reliability problem as much as a speed one.' },
+        { series: 'Formula 1', why: 'Still watch it, but it is the least interesting of the four to me now.' }
+      ],
+      garage: [
+        { tag: 'Dream car', name: 'Nissan GT-R R35', body: 'Not the most refined answer, but it is mine. I liked it before I knew anything about cars.' },
+        { tag: 'Would work on', name: 'A car I instrumented myself', body: 'I\u2019d rather work on the one where I picked the sensors and ran the harness myself.' }
+      ],
+      racingQs: [
+        { n: '01', text: 'How much of a driver being fast is the setup underneath them, and how would you separate the two from data alone?' },
+        { n: '02', text: 'What does tire degradation actually look like in a trace, before it shows up in the lap times?' },
+        { n: '03', text: 'On a rally stage there is no clean reference lap. What do you compare against instead?' },
+        { n: '04', text: 'How few channels could you log and still make a real setup call?' }
+      ],
+      notes: [
+        { date: 'Aug 2026', tag: 'Performance', title: '130 seconds to 4', body: [
+          'The number on my resume is the 97%. Almost none of it came from clever code.',
+          'The platform was making the same handful of database calls over and over inside loops, once per row, on pages that loaded hundreds of rows. Nothing was wrong with any single query. There were just thousands of them where there should have been one. Restructuring how the page fetched its data, instead of optimizing what it fetched, is where the whole two minutes went.'
+        ] },
+        { date: 'Sep 2026', tag: 'Building', title: 'Why I am building a scheduler we already have', body: [
+          'A&M has a registration system. It tells you which sections exist and whether they conflict. It does not help you decide.',
+          'The actual question a student is asking is not "does this fit," it is "which of the hundred things that fit do I want." That depends on who teaches it, whether you want your week compressed into three long days or spread thin, and which blocks of time you refuse to give up. None of that is in the tool, so everyone rebuilds it by hand in a spreadsheet every semester.',
+          'So the app scrapes the catalog, generates every valid schedule, and ranks them. Scraping was the easy part. Deciding what makes one schedule better than another, and letting the user change that, is the harder problem.'
+        ] },
+        { date: 'Sep 2026', tag: 'Learning', title: 'The half of engineering I do not have yet', body: [
+          'I got here through software, so I am comfortable once a problem has a text editor in front of it and much less comfortable before that.',
+          'Circuits, wiring, harnessing, PCB design: that is the gap. It is also the part standing between me and the work I actually want, because data acquisition is not a software job. Somebody has to pick the sensor, get it mounted, get clean signal off it, and only then does any of it become a file I know what to do with.',
+          'Closing it by reading, breadboarding, and applying to Baja.'
+        ] }
+      ],
+      year: '2026',
+      gameTabs: [['all','Everything'],['done','Completed'],['playing','Playing'],['backlog','Bucket list']].map(([k, label]) => ({
+        label,
+        count: k === 'all' ? games.length : games.filter(g => g.status === k).length,
+        color: f === k ? 'var(--paper)' : 'var(--mute)',
+        bg: f === k ? 'var(--ink)' : 'transparent',
+        go: () => this.setState({ filter: k })
+      })),
+      visibleGames: (f === 'all'
+        ? games.slice().sort((a, b) => a.title.replace(/^(the|a)\s+/i, '').toLowerCase()
+            .localeCompare(b.title.replace(/^(the|a)\s+/i, '').toLowerCase()))
+        : games.filter(g => g.status === f)).map(g => ({
+        title: g.title,
+        slug: this.slug(g.title),
+        cover: Component.COVERS[g.title] || '',
+        statusLabel: { done: 'Completed', playing: 'Playing', backlog: 'Bucket list' }[g.status],
+        statusColor: g.status === 'done' ? 'var(--accent)' : g.status === 'playing' ? 'var(--ink)' : 'var(--mute)',
+        cycle: this.cycle(g.title)
+      })),
+      doneCount: games.filter(g => g.status === 'done').length,
+      totalCount: games.length,
+      donePct: games.length ? Math.round(games.filter(g => g.status === 'done').length / games.length * 100) + '%' : '0%',
+      stats: [
+        { figure: '97%', count: '97', suffix: '%', label: 'Load-time reduction on a live platform' },
+        { figure: '130s to 4s', count: '', suffix: '', label: 'Login and navigation, before and after' },
+        { figure: '6', count: '6', suffix: '', label: 'Languages shipped in production' }
+      ],
+      nowItems: [
+        { tag: 'BUILD', text: 'Scraping the A&M catalog to generate ranked, conflict-free schedules.' },
+        { tag: 'APPLIED', text: 'Baja SAE at A&M, aiming for the Controls/DAQ or chassis subteam.' },
+        { tag: 'WANT', text: 'Data acquisition work, ideally on a race car.' }
+      ],
+      copyEmail: copyEmail,
+      copyHint: this.state.copied ? 'Copied' : 'Copy',
+      elsewhere: [
+        { label: 'LinkedIn', href: 'https://www.linkedin.com/in/joseph-nguyen-a05517267/', meta: 'joseph-nguyen', click: noop },
+        { label: 'Email', href: 'mailto:joeysngn@gmail.com', meta: this.state.copied ? 'Copied to clipboard' : 'joeysngn@gmail.com', click: copyEmail },
+        { label: 'Résumé', href: 'Joseph-Nguyen-Resume.pdf', meta: 'PDF', click: noop }
+      ],
+      internStack: ['SQL', 'PHP', 'JavaScript', 'Python', 'HTML', 'CSS'],
+      internBullets: [
+        { head: 'Cut login and page-navigation from ~130s to 4s', body: 'I rewrote the query paths and restructured how the site fetched data, which came out to a 97% cut on the flows people used most.' },
+        { head: 'Built the in-browser code editor and execution environment', body: 'Students write and run their assignments in it. I built it end to end.' },
+        { head: 'Redesigned interface elements and navigation flow', body: 'The site got easier to move through, and daily usage from teachers and students went up.' },
+        { head: 'Shipped database-backed progress trackers', body: 'Teachers can see where each student stands in every class they run.' },
+        { head: 'Worked across the stack', body: 'Sprint scope and bug triage alongside the other developers, not off on my own spec.' }
+      ],
+      projects: [
+        { name: 'Course Registration Web App', when: '2026 to present', role: 'Lead developer · independent',
+          blurb: 'It scrapes the Texas A&M course catalog and builds ranked schedules, handling the filtering that the university\u2019s own registration tools leave up to students.',
+          detail: ['Soft and hard time blocking, so a class you can\u2019t take never shows up.', 'Optimizes for tight back-to-back days or a deliberately spread-out week.', 'Professor ratings feed into the scoring, so results rank by who teaches a class and not just when it meets.'],
+          stack: ['Python', 'Web scraping', 'JavaScript'] }
+      ],
+      skills: [
+        { label: 'Languages', items: 'Java, Python, JavaScript, SQL, PHP' },
+        { label: 'Web', items: 'HTML, CSS, front-end and back-end integration' },
+        { label: 'Practice', items: 'Database design and optimization, performance profiling, web scraping, Agile sprints, QA and bug resolution' },
+        { label: 'Interests', items: 'Data acquisition, vehicle dynamics, circuit prototyping, PCB design' }
+      ],
+      hands: [
+        { tag: 'Goal', title: 'Controls and DAQ on a race car', body: 'I\u2019ve applied to Baja SAE at A&M for the Controls/DAQ or chassis subteam. Instrument the car, then work on what the data says about how it behaves.' },
+        { tag: 'Learning', title: 'The electronics side', body: 'Circuit prototyping, wiring and harnessing, PCB design. It\u2019s the part I have the least experience with.' }
+      ],
+      outside: [
+        { label: 'Editing', text: 'Photo and video editing is the hobby I\u2019ve had the longest, and my YouTube channel is where the edits end up.' },
+        { label: 'Mods', text: 'I build mods for the games I play.' },
+        { label: 'Service', text: 'Boy Scouts and TNTT, including the 2023 national TNTT competition in Anaheim, plus church community service.' }
+      ],
+      achievements: [
+        { title: 'USA Biology Olympiad semifinalist, 2026', body: 'top 500 nationally.' },
+        { title: 'UIL Regionals qualifier, 2026', body: 'Calculator Applications and Literary Criticism.' },
+        { title: 'Event Coordinator, Cypress Woods Computer Science Club', body: 'ran logistics for competitive UIL computer science events.' }
+      ],
+      contacts: [
+        { label: 'Email', value: 'joeysngn@gmail.com', href: 'mailto:joeysngn@gmail.com', click: copyEmail, title: 'Copy email address', hint: this.state.copied ? 'Copied' : 'Click to copy' },
+        { label: 'Phone', value: '(346) 280-1323', href: 'tel:+13462801323', click: noop, title: '', hint: '' },
+        { label: 'LinkedIn', value: 'joseph-nguyen', href: 'https://www.linkedin.com/in/joseph-nguyen-a05517267/', click: noop, title: '', hint: '' }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>
